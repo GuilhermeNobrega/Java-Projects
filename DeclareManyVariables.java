@@ -22,3 +22,24 @@ float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal d
 double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
 boolean	1 bit	Stores true or false values
 char	2 bytes	Stores a single character/letter or ASCII values
+
+
+//-------------------------
+//Scientific Numbers: A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+float f1 = 35e3f;
+double d1 = 12E4d;
+System.out.println(f1);
+System.out.println(d1);
+//-------------------------
+
+/*Non-Primitive Data Types
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type has always a value, while non-primitive types can be null.
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
+*/
