@@ -76,3 +76,28 @@ public class Main {
     }
 }
 
+
+
+
+//-------
+import java.io.LineNumberInputStream;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner valor1 = new Scanner(System.in);
+        System.out.printf("Say you value to me: ");
+        int x = valor1.nextInt();
+        Scanner valor2 = new Scanner(System.in);
+        System.out.printf("Say other value to me: ");
+        int y = valor2.nextInt();
+        int soma = x+y;
+        System.out.printf(" The sum of %d and %d is : %d%n",x,y,soma);
+        Scanner z = new Scanner(System.in);
+        System.out.println("And now say a string");
+        String texto = z.nextLine();
+        int tamanho = texto.length();
+        System.out.printf("The lenght of %s is %d%n",texto,tamanho);
+
+    }
+}
+
