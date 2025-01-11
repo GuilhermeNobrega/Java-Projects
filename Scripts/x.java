@@ -11,3 +11,16 @@ public class x{
         
     }
 }
+
+
+
+
+public class x{
+    public static void main(String args[]){
+        byte x = 10;
+        byte y = 20;
+        String soma = String.format("A soma entre %d e %d vale %d", x,y,x+y);
+        System.out.println(soma);
+        
+    }
+}
