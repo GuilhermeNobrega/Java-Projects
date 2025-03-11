@@ -1,0 +1,18 @@
+O Scanner é uma classe do Java que permite a entrada de dados.
+1) Faça seu import: java.util.Scanner
+2) Vejamos uma leitura simples do scanner:
+
+Scanner ObjNomes = new Scanner(System.in);
+Basicamente, chamamos a classe Scanner e criamos um objeto do tipo Scanner, instanciando com o new, posteriomente.
+
+
+3) Agora com nosso objeto criado, vamos criar uma variavel que irá recebé-lo e pegar o que o usuário digitou:
+String nomes = ObjNomes.nextLine()
+
+nextInt():
+Lê apenas um número inteiro e não captura a quebra de linha (\n) que é deixada no buffer do teclado.
+Se o usuário digitar 5 e pressionar Enter, o 5 será armazenado, mas o caractere \n (Enter) ficará no buffer de entrada.
+
+nextLine():
+Lê uma linha inteira de entrada (ou seja, tudo até encontrar um \n).
+Diferente do nextInt(), ele consome a quebra de linha (\n), então se for usado logo após um nextInt(), ele pode acabar lendo uma linha vazia.
