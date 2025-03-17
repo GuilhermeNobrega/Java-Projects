@@ -40,9 +40,8 @@ public class Main
 
 
 
-  class Pessoa{
-      String nome;
-      
+ class Pessoa{
+      String nome = "paulo";// variavel de instancia; será sobrescrita pelo método abixo
       void setName(String nome){
           this.nome = nome;
       }
@@ -55,9 +54,10 @@ public class Main
 public class Main
 {
 	public static void main(String[] args) {
-		//System.out.println("Hello World");
+		
 		Pessoa nome = new Pessoa();
 		nome.setName("Joao");
 		nome.mostrarNome();
+		
 	}
 }
